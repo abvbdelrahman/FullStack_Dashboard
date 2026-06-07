@@ -1,0 +1,12 @@
+{
+  "name": "lms-dashboard-workspace",
+  "private": true,
+  "scripts": {
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix backend test",
+    "seed": "npm --prefix backend run seed"
+  }
+}
